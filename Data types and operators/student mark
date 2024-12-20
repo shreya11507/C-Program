@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+int num,sub1,sub2,sub3,sub4,sub5,total;
+float percent;
+printf("Enter student roll no.:");
+scanf("%d",&num);
+printf("Enter mark of subject1:");
+scanf("%d",&sub1);
+printf("\nEnter mark of subject2:");
+scanf("%d",&sub2);
+printf("\nEnter mark of subject3:");
+scanf("%d",&sub3);
+printf("\nEnter mark of subject4:");
+scanf("%d",&sub4);
+printf("\nEnter mark of subject5:");
+scanf("%d",&sub5);
+total=sub1+sub2+sub3+sub4+sub5;
+printf("\nThe total mark:=%d",total);
+percent=total/5;
+printf("\nThe percentage scored:%f",percent);
+return 0;
+}
